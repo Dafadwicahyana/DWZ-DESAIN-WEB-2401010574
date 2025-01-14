@@ -1,0 +1,44 @@
+/* Navbar */
+.navbar {
+    background-color: #daf10b; /* Merah khas Indomie */
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Link */
+.navbar a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; /* Penting untuk pseudo-element */
+    padding-bottom: 5px;
+}
+
+
+/* hero section */
+.hero {
+    height: 100vh;
+    background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Produk Card */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
